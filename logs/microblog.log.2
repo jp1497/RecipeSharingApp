@@ -1,0 +1,114 @@
+2021-02-15 15:13:13,912 INFO: Microblog startup [in C:\Users\Jake\PycharmProjects\RecipeSharingApp\application\__init__.py:57]
+2021-02-15 16:07:50,579 INFO: Microblog startup [in C:\Users\Jake\PycharmProjects\RecipeSharingApp\application\__init__.py:57]
+2021-02-15 16:07:52,283 ERROR: Exception on /index [GET] [in C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\application\routes.py", line 24, in index
+    recipes = current_user.get_recipes()
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+AttributeError: 'AnonymousUserMixin' object has no attribute 'get_recipes'
+2021-02-15 16:08:42,131 INFO: Microblog startup [in C:\Users\Jake\PycharmProjects\RecipeSharingApp\application\__init__.py:57]
+2021-02-15 16:08:50,222 INFO: Microblog startup [in C:\Users\Jake\PycharmProjects\RecipeSharingApp\application\__init__.py:57]
+2021-02-15 16:08:57,002 INFO: Microblog startup [in C:\Users\Jake\PycharmProjects\RecipeSharingApp\application\__init__.py:57]
+2021-02-15 16:09:02,122 ERROR: Exception on /index [GET] [in C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\application\routes.py", line 24, in index
+    recipes = current_user.get_recipes()
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+AttributeError: 'AnonymousUserMixin' object has no attribute 'get_recipes'
+2021-02-15 16:10:07,851 INFO: Microblog startup [in C:\Users\Jake\PycharmProjects\RecipeSharingApp\application\__init__.py:57]
+2021-02-15 16:10:51,631 ERROR: Exception on /index [GET] [in C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\application\routes.py", line 26, in index
+    return render_template('index.html', title='Home page', recipes=recipes.items)
+AttributeError: 'InstrumentedList' object has no attribute 'items'
+2021-02-15 16:11:57,612 INFO: Microblog startup [in C:\Users\Jake\PycharmProjects\RecipeSharingApp\application\__init__.py:57]
+2021-02-15 16:15:05,756 INFO: Microblog startup [in C:\Users\Jake\PycharmProjects\RecipeSharingApp\application\__init__.py:57]
+2021-02-15 16:16:06,742 INFO: Microblog startup [in C:\Users\Jake\PycharmProjects\RecipeSharingApp\application\__init__.py:57]
+2021-02-15 16:16:36,052 INFO: Microblog startup [in C:\Users\Jake\PycharmProjects\RecipeSharingApp\application\__init__.py:57]
+2021-02-15 16:17:11,573 INFO: Microblog startup [in C:\Users\Jake\PycharmProjects\RecipeSharingApp\application\__init__.py:57]
+2021-02-15 16:17:39,647 INFO: Microblog startup [in C:\Users\Jake\PycharmProjects\RecipeSharingApp\application\__init__.py:57]
+2021-02-15 16:18:22,104 INFO: Microblog startup [in C:\Users\Jake\PycharmProjects\RecipeSharingApp\application\__init__.py:57]
+2021-02-15 16:19:13,972 INFO: Microblog startup [in C:\Users\Jake\PycharmProjects\RecipeSharingApp\application\__init__.py:57]
+2021-02-15 16:19:22,113 ERROR: Exception on /... [GET] [in C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\app.py", line 1926, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\app.py", line 1908, in raise_routing_exception
+    raise request.routing_exception
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\ctx.py", line 350, in match_request
+    result = self.url_adapter.match(return_rule=True)
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\werkzeug\routing.py", line 1945, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\app.py", line 1816, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\app.py", line 1744, in handle_http_exception
+    return handler(e)
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\application\errors.py", line 7, in not_found_error
+    return render_template('404.html'), 404
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\jinja2\environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\jinja2\environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\jinja2\environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\jinja2\loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\Jake\PycharmProjects\RecipeSharingApp\venv\lib\site-packages\flask\templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: 404.html
+2021-02-15 16:23:55,463 INFO: Microblog startup [in C:\Users\Jake\PycharmProjects\RecipeSharingApp\application\__init__.py:57]

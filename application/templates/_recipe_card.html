@@ -1,0 +1,13 @@
+
+<div class="card">
+    <img class="card-img" src="https://via.placeholder.com/256" alt="image">
+
+    <div class="card-body">
+        <h4 class="card-title"> {{ recipe.title }} </h4>
+        <small class="text-muted cat">
+            <i class="far fa-clock text-info"></i> {{ recipe.cooking_time }}
+        </small>
+        <p class="card-text">{{ recipe.description }}</p>
+        <a href="{{ url_for('recipe', id=recipe.id) }}" class="btn btn-info">Read Recipe</a>
+    </div>
+</div>

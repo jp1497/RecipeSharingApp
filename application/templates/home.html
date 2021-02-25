@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+
+  <!-- Intro text -->
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1>Making Cooking Simple</h1>
+      <p class="lead text-muted">Finding the time to cook healthy balanced meals whilst juggling both family
+      and work is difficult enough. Whilst I can't help you with the actual cooking, I hope to help make the
+      process of finding recipes and creating meal plans that tiny bit easier (and hopefully more enjoyable!).</p>
+      <p>
+        <a href="#" class="btn btn-primary my-2">Login</a>
+        <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Recipe cards -->
+  <div class="row">
+    {% for recipe in recipes %}
+    <div class="col-sm-4 mb-3">
+      {% include '_recipe_card.html' %}
+    </div>
+    {% endfor %}
+
+  </div>
+{% endblock %}
